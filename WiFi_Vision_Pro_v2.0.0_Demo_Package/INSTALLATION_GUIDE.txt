@@ -1,0 +1,58 @@
+WiFi Vision Pro v2.0.0 - Installation Guide
+================================================
+
+GENERATED: 2025-09-11 07:47:17
+
+SYSTEM REQUIREMENTS:
+- Python 3.8 or higher
+- 4GB RAM minimum (8GB recommended)
+- WiFi adapter
+- Administrator/sudo privileges for signal capture
+
+QUICK START (Windows):
+1. Double-click "Run_WiFi_Vision_Pro.bat"
+2. Wait for dependency installation
+3. Application will start automatically
+
+QUICK START (Linux/macOS):
+1. Open terminal in this directory
+2. Run: chmod +x run_wifi_vision_pro.sh
+3. Run: ./run_wifi_vision_pro.sh
+
+MANUAL INSTALLATION:
+1. Install Python dependencies:
+   pip install -r src/requirements.txt
+
+2. Run the application:
+   cd src
+   python advanced_gui.py
+
+FEATURES INCLUDED:
+- Real-time WiFi signal capture and visualization
+- AI-powered signal-to-image conversion using Hugging Face models
+- Advanced signal analysis and interference detection
+- Cross-platform support (Windows, Linux, macOS)
+- Multiple visualization modes
+- Export and analysis capabilities
+
+AI MODELS USED:
+- Vision Transformer (ViT) for image analysis
+- Stable Diffusion for AI image generation
+- Audio processing models for signal interpretation
+
+TROUBLESHOOTING:
+- Ensure Python is in system PATH
+- Run as Administrator/sudo for WiFi capture
+- Check firewall/antivirus settings
+- Install Visual Studio Build Tools on Windows if compilation fails
+
+For support and documentation:
+- README.md - Complete documentation
+- examples/ - Sample code and tutorials
+- GitHub: https://github.com/wifi-analysis/wifi-vision-pro
+
+COMMERCIAL LICENSING:
+This demo is for evaluation purposes. Contact support@wifivisionpro.com
+for commercial licensing options.
+
+© 2025 WiFi Analysis Solutions - All Rights Reserved

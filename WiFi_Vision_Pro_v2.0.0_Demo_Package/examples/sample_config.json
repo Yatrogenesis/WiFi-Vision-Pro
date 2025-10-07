@@ -1,0 +1,24 @@
+{
+  "capture_settings": {
+    "sample_rate": 100,
+    "capture_duration": 60,
+    "frequency_bins": 256,
+    "spatial_resolution": [800, 600]
+  },
+  "ai_settings": {
+    "enable_ai_processing": true,
+    "ai_processing_interval": 10,
+    "gpu_acceleration": true,
+    "model_precision": "float16"
+  },
+  "visualization_settings": {
+    "default_colormap": "jet",
+    "update_frequency": 30,
+    "enable_3d_visualization": true
+  },
+  "network_filters": {
+    "min_signal_strength": -80,
+    "exclude_ssids": ["hidden", "test"],
+    "frequency_bands": ["2.4GHz", "5GHz", "6GHz"]
+  }
+}

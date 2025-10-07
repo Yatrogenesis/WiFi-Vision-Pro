@@ -1,0 +1,8 @@
+{
+  "app_name": "WiFi Vision Pro",
+  "version": "2.0.0",
+  "build_date": "2025-09-11T07:40:20.864991",
+  "platform": "windows",
+  "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "build_system": "PyInstaller + Custom Scripts"
+}

@@ -1,0 +1,29 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(2,0,0,0),
+    prodvers=(2,0,0,0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          u'040904B0',
+          [StringStruct(u'CompanyName', u'WiFi Analysis Solutions'),
+           StringStruct(u'FileDescription', u'WiFi Vision Pro - Advanced Signal Visualization'),
+           StringStruct(u'FileVersion', u'2.0.0'),
+           StringStruct(u'InternalName', u'WiFiVisionPro'),
+           StringStruct(u'LegalCopyright', u'© 2025 WiFi Analysis Solutions'),
+           StringStruct(u'OriginalFilename', u'WiFiVisionPro.exe'),
+           StringStruct(u'ProductName', u'WiFi Vision Pro'),
+           StringStruct(u'ProductVersion', u'2.0.0')])
+      ]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)
