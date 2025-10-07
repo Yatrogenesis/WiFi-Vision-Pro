@@ -1,0 +1,27 @@
+# WiFi-Vision-Pro Professional Edition Requirements
+# Medical-Grade Through-Wall Imaging System
+
+# Core Dependencies
+numpy>=1.24.0
+scipy>=1.10.0
+opencv-python>=4.8.0
+
+# Computer Vision (Layer 0)
+ultralytics>=8.0.0  # YOLOv8
+mediapipe>=0.10.0   # Pose estimation
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Signal Processing (Layer 1)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# GUI
+PySide6>=6.5.0
+
+# Optional: GPU acceleration
+# torch-cuda>=2.0.0  # Uncomment for CUDA support
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
